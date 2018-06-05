@@ -14620,11 +14620,9 @@ Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a
 <wire x1="134.62" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="5"/>
-<wire x1="48.26" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="43.18" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
-<label x="15.24" y="48.26" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="12"/>
+<wire x1="48.26" y1="25.4" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">

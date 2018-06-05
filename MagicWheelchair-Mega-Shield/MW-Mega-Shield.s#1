@@ -14706,12 +14706,22 @@ Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a
 <label x="172.72" y="144.78" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<pinref part="INPUT_1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="116.84" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INPUT_OPT" class="0">
 <segment>
 <wire x1="167.64" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <label x="172.72" y="142.24" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="INPUT_OPT" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
+<label x="116.84" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS3" class="0">

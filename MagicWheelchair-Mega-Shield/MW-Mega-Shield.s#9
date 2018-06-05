@@ -14626,6 +14626,8 @@ http://dangerousprototypes.com</description>
 <part name="UNDER_GND" library="dp_devices.v6" deviceset="PAD_TERMINAL" device="-1.02MM_SQUARE"/>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X13" device=""/>
 <part name="JP4" library="microbuilder" deviceset="HEADER-1X13" device=""/>
+<part name="DUMMY_STAND" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="DUMMY_STAND2" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14649,6 +14651,8 @@ http://dangerousprototypes.com</description>
 <instance part="UNDER_GND" gate="T" x="-43.18" y="15.24"/>
 <instance part="JP3" gate="G$1" x="165.1" y="139.7" rot="MR0"/>
 <instance part="JP4" gate="G$1" x="193.04" y="93.98"/>
+<instance part="DUMMY_STAND" gate="G$1" x="-78.74" y="101.6"/>
+<instance part="DUMMY_STAND2" gate="G$1" x="-78.74" y="86.36"/>
 </instances>
 <busses>
 </busses>

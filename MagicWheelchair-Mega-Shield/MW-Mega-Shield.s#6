@@ -14721,7 +14721,7 @@ Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a
 <part name="DUMMY_STAND" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="DUMMY_STAND2" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="INPUT_1" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
-<part name="X2" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
+<part name="INPUT_OPT" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14748,7 +14748,7 @@ Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a
 <instance part="DUMMY_STAND" gate="G$1" x="-78.74" y="101.6"/>
 <instance part="DUMMY_STAND2" gate="G$1" x="-78.74" y="86.36"/>
 <instance part="INPUT_1" gate="G$1" x="106.68" y="152.4"/>
-<instance part="X2" gate="G$1" x="106.68" y="132.08"/>
+<instance part="INPUT_OPT" gate="G$1" x="106.68" y="132.08"/>
 </instances>
 <busses>
 </busses>

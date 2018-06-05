@@ -1,0 +1,25 @@
+Importer Log Report
+Project : MW-Mega-Shield.PrjPCB
+
+Section : Analyze Document - E:\users\nlv\projects\MW-shield\MagicWheelchair-Mega-Shield\MW-Mega-Shield.brd
+    Analyzing data of E:\users\nlv\projects\MW-shield\MagicWheelchair-Mega-Shield\MW-Mega-Shield.brd
+    Load settings
+    Load layers 131
+    Load Library "SparkFun-Boards"
+    Load Packages 1
+    Load Library "rcl"
+    Load Packages 2
+    ERROR: Unhandled typepackages3d
+    Load Library "jumper"
+    Load Packages 1
+    ERROR: Unhandled typepackages3d
+    Load Library "SparkFun-Connectors"
+    Load Packages 1
+    Load Library "dp_devices.v6"
+    Load Packages 1
+    Load Library "microbuilder"
+    Load Packages 1
+    Load Library "con-conrad"
+    Load Packages 1
+    ERROR: Unhandled typepackages3d
+EndSection

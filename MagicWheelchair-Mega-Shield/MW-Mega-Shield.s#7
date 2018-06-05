@@ -14599,6 +14599,98 @@ http://dangerousprototypes.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-conrad" urn="urn:adsk.eagle:library:135">
+<description>&lt;b&gt;Conrad Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="736880-49" urn="urn:adsk.eagle:footprint:6317/1" library_version="1">
+<description>&lt;b&gt;Cinch Einbauprintbuchse&lt;/b&gt;, ( RCA Jack ) RM 7.5 x 10 mm&lt;p&gt;
+Artikel-Nr.: 736880 - 49&lt;br&gt;
+Source: http://www.produktinfo.conrad.com/datenblaetter/725000-749999/736880-da-01-de-Cinch-Einbaubuchse.pdf</description>
+<wire x1="6.08" y1="-5.5" x2="2.08" y2="-5.5" width="0.4096" layer="51"/>
+<wire x1="-4.92" y1="3" x2="-4.92" y2="-3" width="0.4096" layer="51"/>
+<wire x1="2.08" y1="5.5" x2="-4.92" y2="5.5" width="0.4096" layer="21"/>
+<wire x1="-4.92" y1="5.5" x2="-4.92" y2="4.25" width="0.4096" layer="21"/>
+<wire x1="-4.92" y1="4.25" x2="-4.92" y2="3" width="0.4096" layer="21"/>
+<wire x1="2.08" y1="-5.5" x2="-4.92" y2="-5.5" width="0.4096" layer="21"/>
+<wire x1="-4.92" y1="-5.5" x2="-4.92" y2="-4" width="0.4096" layer="21"/>
+<wire x1="-4.92" y1="-4" x2="-4.92" y2="-3" width="0.4096" layer="21"/>
+<wire x1="-5.42" y1="-3.5" x2="-11.92" y2="-3.5" width="0.4096" layer="21"/>
+<wire x1="-11.92" y1="-3.5" x2="-12.42" y2="-3" width="0.4096" layer="21" curve="-90"/>
+<wire x1="-12.42" y1="-3" x2="-12.42" y2="3.25" width="0.4096" layer="21"/>
+<wire x1="-12.42" y1="3.25" x2="-11.92" y2="3.75" width="0.4096" layer="21" curve="-90"/>
+<wire x1="-11.92" y1="3.75" x2="-5.42" y2="3.75" width="0.4096" layer="21"/>
+<wire x1="-4.92" y1="4.25" x2="-5.42" y2="3.75" width="0.4096" layer="21" curve="-90"/>
+<wire x1="-5.42" y1="-3.5" x2="-4.92" y2="-4" width="0.4096" layer="21" curve="-90"/>
+<wire x1="3.975" y1="6" x2="6.275" y2="6" width="0" layer="46"/>
+<wire x1="6.275" y1="6" x2="6.275" y2="5" width="0" layer="46"/>
+<wire x1="6.275" y1="5" x2="3.975" y2="5" width="0" layer="46"/>
+<wire x1="3.975" y1="5" x2="3.975" y2="6" width="0" layer="46"/>
+<wire x1="6.08" y1="5.5" x2="2.08" y2="5.5" width="0.4096" layer="51"/>
+<wire x1="3.975" y1="-5" x2="6.275" y2="-5" width="0" layer="46"/>
+<wire x1="6.275" y1="-5" x2="6.275" y2="-6" width="0" layer="46"/>
+<wire x1="6.275" y1="-6" x2="3.975" y2="-6" width="0" layer="46"/>
+<wire x1="3.975" y1="-6" x2="3.975" y2="-5" width="0" layer="46"/>
+<wire x1="-5.025" y1="0.5" x2="-2.725" y2="0.5" width="0" layer="46"/>
+<wire x1="-2.725" y1="0.5" x2="-2.725" y2="-0.5" width="0" layer="46"/>
+<wire x1="-2.725" y1="-0.5" x2="-5.025" y2="-0.5" width="0" layer="46"/>
+<wire x1="-5.025" y1="-0.5" x2="-5.025" y2="0.5" width="0" layer="46"/>
+<pad name="1" x="-3.92" y="0" drill="1" diameter="2.2" shape="long"/>
+<pad name="1@2" x="5.08" y="5.5" drill="1" diameter="2.2" shape="long"/>
+<pad name="1@1" x="5.08" y="-5.5" drill="1" diameter="2.2" shape="long"/>
+<pad name="2" x="3.58" y="0" drill="1.8" diameter="3"/>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="736880-49" urn="urn:adsk.eagle:package:6326/1" type="box" library_version="1">
+<description>Cinch Einbauprintbuchse, ( RCA Jack ) RM 7.5 x 10 mm
+Artikel-Nr.: 736880 - 49
+Source: http://www.produktinfo.conrad.com/datenblaetter/725000-749999/736880-da-01-de-Cinch-Einbaubuchse.pdf</description>
+<packageinstances>
+<packageinstance name="736880-49"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CINCH" urn="urn:adsk.eagle:symbol:6316/1" library_version="1">
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-5.08" y1="-0.508" x2="-2.54" y2="0.508" layer="94"/>
+<pin name="2" x="2.54" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="2.54" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.016" y2="-0.381" width="0.254" layer="94" curve="90"/>
+<wire x1="-5.08" y1="2.54" x2="-3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-1.016" y2="0.381" width="0.254" layer="94" curve="-90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="736880-49" urn="urn:adsk.eagle:component:6333/1" prefix="X" library_version="1">
+<description>&lt;b&gt;Cinch Connector&lt;/b&gt; ( RCA Jack )&lt;p&gt;
+Cinch-Einbaukupplung 90º 72345 Vernickelt BKL Electronic&lt;br&gt;
+Source: &lt;a href="http://www.conrad.de/ce/de/product/736880"&gt; Conrad &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CINCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="736880-49">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1@1 1@2"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6326/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14628,6 +14720,8 @@ http://dangerousprototypes.com</description>
 <part name="JP4" library="microbuilder" deviceset="HEADER-1X13" device=""/>
 <part name="DUMMY_STAND" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
 <part name="DUMMY_STAND2" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+<part name="INPUT_1" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
+<part name="X2" library="con-conrad" library_urn="urn:adsk.eagle:library:135" deviceset="736880-49" device="" package3d_urn="urn:adsk.eagle:package:6326/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14653,6 +14747,8 @@ http://dangerousprototypes.com</description>
 <instance part="JP4" gate="G$1" x="193.04" y="93.98"/>
 <instance part="DUMMY_STAND" gate="G$1" x="-78.74" y="101.6"/>
 <instance part="DUMMY_STAND2" gate="G$1" x="-78.74" y="86.36"/>
+<instance part="INPUT_1" gate="G$1" x="106.68" y="152.4"/>
+<instance part="X2" gate="G$1" x="106.68" y="132.08"/>
 </instances>
 <busses>
 </busses>
