@@ -455,52 +455,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-17.78" y1="-24.765" x2="-17.145" y2="-25.4" width="0.2032" layer="21"/>
 <wire x1="-15.875" y1="-25.4" x2="-17.145" y2="-25.4" width="0.2032" layer="21"/>
 <wire x1="-2.54" y1="-23.495" x2="-2.54" y2="-24.765" width="0.2032" layer="21"/>
-<pad name="A9" x="26.67" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A10" x="29.21" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A11" x="31.75" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A12" x="34.29" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A13" x="36.83" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A14" x="39.37" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A15" x="41.91" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A8" x="24.13" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="15" x="21.59" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="16" x="24.13" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="17" x="26.67" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="18" x="29.21" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="19" x="31.75" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="20" x="34.29" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="21" x="36.83" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="14" x="19.05" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A1" x="3.81" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A2" x="6.35" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A3" x="8.89" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A4" x="11.43" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A5" x="13.97" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A6" x="16.51" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A7" x="19.05" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="A0" x="1.27" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="6" x="-1.27" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="5" x="1.27" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="4" x="3.81" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="3" x="6.35" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="2" x="8.89" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="1" x="11.43" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="0" x="13.97" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="7" x="-3.81" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="GND@4" x="-23.114" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="13" x="-20.574" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="12" x="-18.034" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="11" x="-15.494" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="10" x="-12.954" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="9" x="-10.414" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="8" x="-7.874" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="AREF" x="-25.654" y="24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="RESET" x="-16.51" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="3.3V" x="-13.97" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="5V@0" x="-11.43" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="GND@0" x="-8.89" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="GND@1" x="-6.35" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
-<pad name="VIN" x="-3.81" y="-24.13" drill="1.016" diameter="2.1844" rot="R90"/>
+<pad name="A9" x="26.67" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A10" x="29.21" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A11" x="31.75" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A12" x="34.29" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A13" x="36.83" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A14" x="39.37" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A15" x="41.91" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A8" x="24.13" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="15" x="21.59" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="16" x="24.13" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="17" x="26.67" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="18" x="29.21" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="19" x="31.75" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="20" x="34.29" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="21" x="36.83" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="14" x="19.05" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A1" x="3.81" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A2" x="6.35" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A3" x="8.89" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A4" x="11.43" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A5" x="13.97" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A6" x="16.51" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A7" x="19.05" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="A0" x="1.27" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="6" x="-1.27" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="5" x="1.27" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="4" x="3.81" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="3" x="6.35" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="2" x="8.89" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="1" x="11.43" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="0" x="13.97" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="7" x="-3.81" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="GND@4" x="-23.114" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="13" x="-20.574" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="12" x="-18.034" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="11" x="-15.494" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="10" x="-12.954" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="9" x="-10.414" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="8" x="-7.874" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="AREF" x="-25.654" y="24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="RESET" x="-16.51" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="3.3V" x="-13.97" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="5V@0" x="-11.43" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="GND@0" x="-8.89" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="GND@1" x="-6.35" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
+<pad name="VIN" x="-3.81" y="-24.13" drill="1.016" diameter="1.9304" rot="R90"/>
 <rectangle x1="39.116" y1="-24.384" x2="39.624" y2="-23.876" layer="51"/>
 <rectangle x1="36.576" y1="-24.384" x2="37.084" y2="-23.876" layer="51"/>
 <rectangle x1="34.036" y1="-24.384" x2="34.544" y2="-23.876" layer="51"/>
@@ -14087,7 +14087,7 @@ http://dangerousprototypes.com</description>
 </package>
 <package name="CON_PAD_SQUARE_1.02MM">
 <description>Square pad 1.02 mm drill 1.81 mm pad diameter</description>
-<pad name="P" x="0" y="0" drill="1.02" diameter="2.1844" shape="square" thermals="no"/>
+<pad name="P" x="0" y="0" drill="1.524" diameter="2.54" shape="square" thermals="no"/>
 </package>
 <package name="CON_PAD_ROUND_32MIL">
 <description>Round pad 0.81 mm (32 mil) drill 1.52 mm (60 mil) pad diameter</description>
@@ -14170,18 +14170,18 @@ http://dangerousprototypes.com</description>
 <packages>
 <package name="1X13_ROUND_70">
 <wire x1="-16.51" y1="0.635" x2="-16.51" y2="-0.635" width="0.2032" layer="51"/>
-<pad name="1" x="-15.24" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="2" x="-12.7" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="3" x="-10.16" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="4" x="-7.62" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="5" x="-5.08" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="6" x="-2.54" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="7" x="0" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="8" x="2.54" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="9" x="5.08" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="10" x="7.62" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="11" x="10.16" y="0" drill="1" diameter="2.1844" rot="R90"/>
-<pad name="12" x="12.7" y="0" drill="1" diameter="2.1844" rot="R90"/>
+<pad name="1" x="-15.24" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="2" x="-12.7" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="3" x="-10.16" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="4" x="-7.62" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="5" x="-5.08" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="6" x="-2.54" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="7" x="0" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="8" x="2.54" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="9" x="5.08" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="10" x="7.62" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="11" x="10.16" y="0" drill="1" diameter="1.9304" rot="R90"/>
+<pad name="12" x="12.7" y="0" drill="1" diameter="1.9304" rot="R90"/>
 <text x="-16.5862" y="1.8288" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-16.51" y="-3.175" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
@@ -14196,7 +14196,7 @@ http://dangerousprototypes.com</description>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<pad name="13" x="15.24" y="0" drill="1" diameter="2.1844" rot="R90"/>
+<pad name="13" x="15.24" y="0" drill="1" diameter="1.9304" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 </package>
 </packages>
@@ -14319,8 +14319,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
 <text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;Name</text>
 <text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-<hole x="-3.55" y="0" drill="0.9"/>
-<hole x="3.55" y="0" drill="0.9"/>
+<hole x="-1.01" y="0" drill="0.9"/>
+<hole x="1.01" y="0" drill="0.9"/>
 </package>
 </packages>
 <symbols>
