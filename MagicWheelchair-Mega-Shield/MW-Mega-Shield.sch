@@ -14517,6 +14517,8 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="30kOhm"/>
 <part name="X1" library="con-hirschmann" library_urn="urn:adsk.eagle:library:153" deviceset="TOBU3" device="" package3d_urn="urn:adsk.eagle:package:7468/1"/>
 <part name="X2" library="con-hirschmann" library_urn="urn:adsk.eagle:library:153" deviceset="TOBU3" device="" package3d_urn="urn:adsk.eagle:package:7468/1"/>
+<part name="PWR_SW_IN" library="dp_devices.v6" deviceset="PAD_TERMINAL" device="-1.02MM_SQUARE"/>
+<part name="PWR_SW_OUT" library="dp_devices.v6" deviceset="PAD_TERMINAL" device="-1.02MM_SQUARE"/>
 </parts>
 <sheets>
 <sheet>
@@ -14526,10 +14528,10 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <instance part="B1" gate="G$1" x="66.04" y="63.5"/>
 <instance part="R1" gate="G$1" x="30.48" y="43.18"/>
 <instance part="R2" gate="G$1" x="30.48" y="35.56"/>
-<instance part="C1" gate="G$1" x="-12.7" y="96.52"/>
-<instance part="5V-IN" gate="G$1" x="-30.48" y="101.6"/>
-<instance part="5V-GND" gate="G$1" x="-30.48" y="86.36"/>
-<instance part="GND1" gate="1" x="-5.08" y="83.82"/>
+<instance part="C1" gate="G$1" x="-17.78" y="142.24"/>
+<instance part="5V-IN" gate="G$1" x="-83.82" y="147.32"/>
+<instance part="5V-GND" gate="G$1" x="-35.56" y="132.08"/>
+<instance part="GND1" gate="1" x="-10.16" y="129.54"/>
 <instance part="FIRE_VIN" gate="T" x="-43.18" y="71.12"/>
 <instance part="FIRE_DATA" gate="T" x="-43.18" y="63.5"/>
 <instance part="FIRE_GND" gate="T" x="-43.18" y="55.88"/>
@@ -14544,6 +14546,8 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <instance part="R4" gate="G$1" x="127" y="66.04" rot="R180"/>
 <instance part="X1" gate="B" x="101.6" y="149.86"/>
 <instance part="X2" gate="B" x="104.14" y="132.08"/>
+<instance part="PWR_SW_IN" gate="T" x="-73.66" y="149.86"/>
+<instance part="PWR_SW_OUT" gate="T" x="-25.4" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -14570,14 +14574,14 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="5V-GND" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="91.44" x2="-12.7" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="86.36" x2="-22.86" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="86.36" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="2.54" y="86.36" size="1.778" layer="95"/>
+<wire x1="-17.78" y1="137.16" x2="-17.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="132.08" x2="-27.94" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="132.08" x2="-10.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="-2.54" y="132.08" size="1.778" layer="95"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-5.08" y1="86.36" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-5.08" y="86.36"/>
-<junction x="-12.7" y="86.36"/>
+<wire x1="-10.16" y1="132.08" x2="-2.54" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-10.16" y="132.08"/>
+<junction x="-17.78" y="132.08"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="GND@0"/>
@@ -14634,13 +14638,15 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <label x="33.02" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="5V-IN" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="101.6" x2="-12.7" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="-12.7" y1="101.6" x2="-12.7" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
-<label x="2.54" y="101.6" size="1.778" layer="95"/>
-<junction x="-12.7" y="101.6"/>
+<wire x1="-17.78" y1="147.32" x2="-17.78" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="147.32" x2="-2.54" y2="147.32" width="0.1524" layer="91"/>
+<label x="-2.54" y="147.32" size="1.778" layer="95"/>
+<pinref part="PWR_SW_OUT" gate="T" pin="P"/>
+<wire x1="-40.64" y1="147.32" x2="-25.4" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="147.32" x2="-17.78" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-25.4" y="147.32"/>
+<junction x="-17.78" y="147.32"/>
 </segment>
 <segment>
 <wire x1="-43.18" y1="68.58" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
@@ -14898,6 +14904,15 @@ Audio, scart, microphone, headphone&lt;p&gt;
 <wire x1="167.64" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="6"/>
 <label x="172.72" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="5V-IN" gate="G$1" pin="1"/>
+<pinref part="PWR_SW_IN" gate="T" pin="P"/>
+<wire x1="-76.2" y1="147.32" x2="-73.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="147.32" x2="-50.8" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-73.66" y="147.32"/>
 </segment>
 </net>
 </nets>

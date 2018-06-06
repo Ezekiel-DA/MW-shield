@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -146,6 +146,10 @@
 <wire x1="94.92" y1="20.32" x2="94.92" y2="80" width="0.6096" layer="20"/>
 <wire x1="94.92" y1="80" x2="7.62" y2="80" width="0.6096" layer="20"/>
 <wire x1="7.62" y1="80" x2="7.62" y2="20.32" width="0.6096" layer="20"/>
+<hole x="11.43" y="76.2" drill="0.35"/>
+<hole x="11.43" y="24.13" drill="0.35"/>
+<hole x="91.44" y="24.13" drill="0.35"/>
+<hole x="91.44" y="76.2" drill="0.35"/>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -1704,7 +1708,7 @@ http://dangerousprototypes.com</description>
 <packages>
 <package name="CON_PAD_SQUARE_1.02MM">
 <description>Square pad 1.02 mm drill 1.81 mm pad diameter</description>
-<pad name="P" x="0" y="0" drill="1.02" diameter="2.1844" shape="square" thermals="no"/>
+<pad name="P" x="0" y="0" drill="1.524" diameter="2.54" shape="square" thermals="no"/>
 </package>
 </packages>
 </library>
@@ -2051,8 +2055,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="B1" library="SparkFun-Boards" package="ARDUINO_MEGA-SIMPLE_SHIELD" value="ARDUINO_MEGA_R3-SIMPLE" x="44.45" y="49.53"/>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="30kOhm" x="52.07" y="59.69" rot="R90">
-<attribute name="SPICEPREFIX" value="R" x="52.07" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="30kOhm" x="43.18" y="59.69" rot="R90">
+<attribute name="SPICEPREFIX" value="R" x="43.18" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="30kOhm" x="30.48" y="59.69" rot="R90">
 <attribute name="SPICEPREFIX" value="R" x="30.48" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2065,7 +2069,7 @@ design rules under a new name.</description>
 <element name="FIRE_VIN" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="25.4" y="43.18"/>
 <element name="FIRE_DATA" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="49.53" y="43.18"/>
 <element name="FIRE_GND" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="35.56" y="43.18"/>
-<element name="UNDER_VIN" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="57.15" y="43.18"/>
+<element name="UNDER_VIN" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="54.61" y="43.18"/>
 <element name="UNDER_DATA" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="30.48" y="43.18"/>
 <element name="UNDER_GND" library="dp_devices.v6" package="CON_PAD_SQUARE_1.02MM" value="PAD_TERMINAL-1.02MM_SQUARE" x="44.45" y="43.18"/>
 <element name="JP3" library="microbuilder" package="1X13_ROUND_70" value="" x="78.74" y="48.26" rot="R270"/>
@@ -2099,8 +2103,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="B1" pad="6"/>
 <contactref element="R1" pad="2"/>
-<wire x1="52.07" y1="60.54" x2="43.18" y2="69.43" width="0.8128" layer="1"/>
-<wire x1="43.18" y1="69.43" x2="43.18" y2="73.66" width="0.8128" layer="1"/>
+<wire x1="43.18" y1="60.54" x2="43.18" y2="73.66" width="0.8128" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="-"/>
@@ -2136,9 +2139,7 @@ design rules under a new name.</description>
 <wire x1="40.64" y1="33.02" x2="40.64" y2="25.4" width="0.8128" layer="1"/>
 <wire x1="62.62675" y1="57.9882" x2="63.0682" y2="57.9882" width="0.8128" layer="1"/>
 <wire x1="63.0682" y1="57.9882" x2="63.5" y2="58.42" width="0.8128" layer="1"/>
-<wire x1="40.64" y1="33.02" x2="48.26" y2="33.02" width="0.8128" layer="1"/>
-<wire x1="48.26" y1="33.02" x2="57.15" y2="41.91" width="0.8128" layer="1"/>
-<wire x1="57.15" y1="41.91" x2="57.15" y2="43.18" width="0.8128" layer="1"/>
+<wire x1="48.26" y1="33.02" x2="40.64" y2="33.02" width="0.8128" layer="1"/>
 <wire x1="14.18" y1="33.06" x2="20.36" y2="33.06" width="0.8128" layer="1"/>
 <wire x1="20.36" y1="33.06" x2="25.4" y2="38.1" width="0.8128" layer="1"/>
 <wire x1="40.64" y1="35.56" x2="40.64" y2="33.02" width="0.8128" layer="1"/>
@@ -2147,18 +2148,20 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="38.1" width="0.8128" layer="1"/>
 <wire x1="63.5" y1="58.42" x2="60.96" y2="58.42" width="0.8128" layer="1"/>
 <wire x1="60.96" y1="58.42" x2="50.8" y2="68.58" width="0.8128" layer="1"/>
-<wire x1="57.15" y1="43.18" x2="57.15" y2="44.45" width="0.8128" layer="1"/>
-<wire x1="60.96" y1="48.26" x2="60.96" y2="58.42" width="0.8128" layer="1"/>
-<wire x1="57.15" y1="44.45" x2="60.96" y2="48.26" width="0.8128" layer="1"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="48.26" width="0.8128" layer="1"/>
+<wire x1="60.96" y1="48.26" x2="55.88" y2="43.18" width="0.8128" layer="1"/>
+<wire x1="55.88" y1="43.18" x2="54.61" y2="43.18" width="0.8128" layer="1"/>
+<wire x1="54.61" y1="43.18" x2="54.61" y2="39.37" width="0.8128" layer="1"/>
+<wire x1="54.61" y1="39.37" x2="48.26" y2="33.02" width="0.8128" layer="1"/>
 </signal>
 <signal name="FIRE_DATA">
 <contactref element="R1" pad="1"/>
 <contactref element="FIRE_DATA" pad="P"/>
-<wire x1="52.07" y1="58.84" x2="49.11" y2="55.88" width="0.8128" layer="1"/>
-<wire x1="49.11" y1="55.88" x2="46.99" y2="55.88" width="0.8128" layer="1"/>
-<wire x1="46.99" y1="55.88" x2="45.72" y2="54.61" width="0.8128" layer="1"/>
-<wire x1="45.72" y1="46.99" x2="49.53" y2="43.18" width="0.8128" layer="1"/>
-<wire x1="45.72" y1="54.61" x2="45.72" y2="46.99" width="0.8128" layer="1"/>
+<wire x1="43.18" y1="58.84" x2="43.18" y2="49.53" width="0.8128" layer="1"/>
+<wire x1="43.18" y1="49.53" x2="44.45" y2="48.26" width="0.8128" layer="1"/>
+<wire x1="44.45" y1="48.26" x2="46.99" y2="48.26" width="0.8128" layer="1"/>
+<wire x1="46.99" y1="48.26" x2="49.53" y2="45.72" width="0.8128" layer="1"/>
+<wire x1="49.53" y1="45.72" x2="49.53" y2="43.18" width="0.8128" layer="1"/>
 </signal>
 <signal name="UNDER_DATA">
 <contactref element="R2" pad="1"/>
